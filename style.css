@@ -1,0 +1,102 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(51, 45, 211, 0.2) 15px 15px 30px 5px;
+}
+
+.left-subcard, .right-subcard {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.left-subcard {
+    background-image: linear-gradient(to bottom, #6447E8, #4B24C3);
+}
+
+.right-subcard {
+    row-gap: 1rem;
+}
+
+.right-subcard > p {
+    text-align: left;
+    width: 100%;
+}
+
+.circle {
+    /* background-color: blue; */
+    /* background-image: linear-gradient(to top, #4636EA,#4B24C3); */
+    background-image: linear-gradient(to top, #6447E8,#4B24C3);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 3rem;
+
+}
+
+.summary-card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.summary-card > div {
+    display: flex;
+}
+
+.red-theme {
+    background-color: lightpink;
+    color: darkred;
+}
+
+.yellow-theme {
+    background-color: lightgoldenrodyellow;
+    color: gold;
+}
+
+.green-theme {
+    background-color: lightgreen;
+    color: green;
+}
+
+.blue-theme {
+    background-color: lightblue;
+    color: blue;
+}
+
+.primary-text {
+    color: white;
+    font-size: xx-large;
+}
+
+.secondary-text {
+    color: gray;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-text {
+    color: black;
+    font-weight: bolder;
+}
